@@ -17,3 +17,14 @@
 - 3. System Design -
   - Define the architecture, components, interfaces, and data flows.
   - Create detailed design documents to guide developers.
+
+- 4. Development -
+  - Write and build the actual code based on design documents.
+  - Use programming languages, frameworks, and tools suited for the project.
+
+- 5. Testing -
+  - Verify that the software meets the requirements and is free of defects.
+  - Perform unit testing, integration testing, system testing, and user acceptance testing.
+- 6. Deployment -
+  - Release the software to the production environment.
+  - Ensure proper configuration and monitor for any deployment issues
