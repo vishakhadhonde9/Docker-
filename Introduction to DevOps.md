@@ -4,3 +4,16 @@
 
 
 ![17352691386366562319715910957078](https://github.com/user-attachments/assets/a02e4add-36df-49f8-9d3c-21e13a271912)
+
+
+- 1. Requirement Analysis -
+  - Gather and analyze the requirements from stakeholders.
+  - Define the project's scope, objectives, and deliverables.
+
+- 2. Planning -
+  - Develop a project plan, including timelines, resources, and budgets.
+  - Identify potential risks and mitigation strategies.
+
+- 3. System Design -
+  - Define the architecture, components, interfaces, and data flows.
+  - Create detailed design documents to guide developers.
