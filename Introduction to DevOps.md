@@ -25,6 +25,11 @@
 - 5. Testing -
   - Verify that the software meets the requirements and is free of defects.
   - Perform unit testing, integration testing, system testing, and user acceptance testing.
+
 - 6. Deployment -
   - Release the software to the production environment.
   - Ensure proper configuration and monitor for any deployment issues
+
+- 7. Maintenance -
+  - Provide ongoing support, fix bugs, and update the software as needed.
+  - Monitor performance and adapt to changing requirements or environments.
