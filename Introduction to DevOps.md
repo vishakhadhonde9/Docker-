@@ -33,3 +33,12 @@
 - 7. Maintenance -
   - Provide ongoing support, fix bugs, and update the software as needed.
   - Monitor performance and adapt to changing requirements or environments.
+
+
+
+# SDLC Model -
+# 1.Waterfall Model -
+- The Waterfall Model is one of the earliest and most straightforward Software Development Life Cycle (SDLC) models.
+- It follows a linear and sequential approach, where each phase must be completed before the next phase begins.
+- There is no overlapping of phases.
+
