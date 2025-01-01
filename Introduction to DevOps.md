@@ -42,13 +42,21 @@
 - It follows a linear and sequential approach, where each phase must be completed before the next phase begins.
 - There is no overlapping of phases.
 
-# 2.Spiral Model -
+# 2.Incremental Model -
+- The Incremental Model is an SDLC approach where the software is developed and delivered in small, manageable pieces or increments.
+- Each increment adds new functionality to the system, allowing partial working versions of the product to be released earlier.
+- This approach is iterative and enables feedback at every stage.
+
+# 3.Spiral Model -
 - The Spiral Model is an SDLC model that combines iterative development with risk management.
 - It is suitable for complex and high-risk projects, as it emphasizes identifying and mitigating risks at every stage of the development process.
 - The model is represented as a spiral with several loops.
 - Each loop corresponds to a development phase, and the project grows progressively.
 
-# 3.V-Model (Verification and Validation) -
+# 4.V-Model (Verification and Validation) -
 - The V-Model (Verification and Validation model) is an SDLC model that emphasizes testing at every stage of development.
 - It is an extension of the Waterfall Model, with a strong focus on quality by mapping each development phase to a corresponding testing phase.
-- 
+- Verification Phases (Development Side):
+    - These ensure that the product is designed correctly.
+- Validation Phases (Testing Side):
+    - These ensure that the product meets the requirements.
