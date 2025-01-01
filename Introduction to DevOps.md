@@ -102,7 +102,12 @@
 - Get Feedback: Show the progress to customers or stakeholders at the end of the sprint.
 - Repeat: Use the feedback to plan the next sprint and improve the software.
 
-
+### Disadvantages - 
+- Requires Skilled Teams: Relies on experienced teams for success.
+- Less Predictability: Hard to estimate timelines and budgets due to changing requirements.
+- Limited Documentation: Focus on working software may lead to insufficient documentation.
+- Time-Consuming Meetings: Frequent meetings can take up significant time.
+- Scope Creep: Continuous changes may lead to uncontrolled growth in project scope.
 
 # DevOps -
 - DevOps Model is a software development approach that combines Development (Dev) and Operations (Ops) teams to work collaboratively throughout the entire software development lifecycle.
@@ -122,8 +127,16 @@
 - Monitoring and Feedback:
    - Continuous monitoring of the application in production helps detect issues and gather feedback, which is then used to improve future releases.
 
-
-
+### Advantages -
+- Faster Delivery: Continuous integration and delivery speed up releases.
+- Improved Collaboration: Development and operations work closely together.
+- Continuous Feedback: Real-time feedback ensures quick fixes and improvements.
+- Automation: Reduces manual effort and human error.
+- Adaptability: Easily accommodates changing requirements.
+- Higher Quality: Continuous testing ensures better quality control.
+- Risk Reduction: Small updates reduce the risk of major failures.
+- Resource Efficiency: Optimizes tasks and resources.
+- Scalability: Easily scales to meet growing demands.
 
 
 
