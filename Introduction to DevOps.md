@@ -60,3 +60,14 @@
     - These ensure that the product is designed correctly.
 - Validation Phases (Testing Side):
     - These ensure that the product meets the requirements.
+
+# 5.Agile Model -
+- The Agile Model is a flexible way to develop software by working in small steps called iterations or sprints.
+- It focuses on delivering parts of the software quickly, improving based on feedback, and adjusting to changes as the project progresses.
+
+##### How Agile Works -
+- Divide the Work: Break the entire project into smaller tasks or pieces called "increments."
+- Plan a Sprint: A sprint is a short period (1–4 weeks) where a specific set of tasks is completed.
+- Develop and Test: Build and test the features during the sprint.
+- Get Feedback: Show the progress to customers or stakeholders at the end of the sprint.
+- Repeat: Use the feedback to plan the next sprint and improve the software.
