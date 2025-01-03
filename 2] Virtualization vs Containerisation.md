@@ -5,5 +5,27 @@
 - Containers can run consistently across different environments, such as a developer's laptop, testing servers, or production systems.
 
 
-# Advantages of Containerization -
-- 
+# Virtualization vs Containerisation -
+##### 1. Resource Efficiency - 
+- Virtualization:
+     - Each virtual machine (VM) runs its own operating system (OS), which consumes significant resources (CPU, memory, and storage).
+     - The hypervisor also adds overhead to manage VMs.
+
+- Containerization:
+
+     - Containers share the host OS kernel, eliminating the need for a full OS in each instance.
+     - This reduces resource consumption, allowing more containers to run on the same hardware compared to VMs.
+
+
+#### 2. Startup Speed -
+- Virtualization:
+     - Starting a VM requires booting its OS, which can take several minutes.
+
+- Containerization:
+    - Containers start almost instantly because they do not boot a full OS but instead share the host's OS kernel.
+
+#### 3. Portability -
+- Virtualization:
+     - VMs are portable but may face compatibility issues due to differences in hypervisor implementations or underlying infrastructure.
+- Containerization:
+    - Containers are highly portable. They run consistently across different environments (development, testing, production) as long as a container runtime (e.g., Docker) is present.
