@@ -29,3 +29,13 @@
      - VMs are portable but may face compatibility issues due to differences in hypervisor implementations or underlying infrastructure.
 - Containerization:
     - Containers are highly portable. They run consistently across different environments (development, testing, production) as long as a container runtime (e.g., Docker) is present.
+
+
+| Feature            | Virtualization (VMs)            | Containerization                     |
+|--------------------|----------------------------------|---------------------------------------|
+| **Overhead**       | High (full OS for each VM)      | Low (shared OS kernel)               |
+| **Startup Time**   | Minutes                        | Seconds                              |
+| **Portability**    | Limited                        | Highly portable                      |
+| **Scalability**    | Slower                         | Fast and efficient                   |
+| **Isolation**      | Strong (OS-level)              | Lightweight but effective (process-level) |
+| **Resource Usage** | Higher                         | Lower                                |
