@@ -101,6 +101,9 @@
 - The Agile Model is a flexible way to develop software by working in small steps called iterations or sprints.
 - It focuses on delivering parts of the software quickly, improving based on feedback, and adjusting to changes as the project progresses.
 
+![17358826579823700077303983721965](https://github.com/user-attachments/assets/3801acba-c229-4014-b893-ce82caad3c5e)
+
+
 ##### How Agile Works -
 - Divide the Work: Break the entire project into smaller tasks or pieces called "increments."
 - Plan a Sprint: A sprint is a short period (1–4 weeks) where a specific set of tasks is completed.
