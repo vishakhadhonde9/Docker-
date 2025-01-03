@@ -122,6 +122,8 @@
 - DevOps Model is a software development approach that combines Development (Dev) and Operations (Ops) teams to work collaboratively throughout the entire software development lifecycle.
 - The goal of DevOps is to increase the speed, quality, and efficiency of delivering software by fostering communication, automation, and continuous delivery.
 
+![17358827664026135776453411519694](https://github.com/user-attachments/assets/3c98539b-06c5-41a4-b1fc-dfee5ec5a552)
+
 
 ## CICD -
 - Continuous Integration (CI):
