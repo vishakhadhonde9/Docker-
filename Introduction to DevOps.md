@@ -83,6 +83,12 @@
 - Validation Phases (Testing Side):
     - These ensure that the product meets the requirements.
 
+
+![17358824662073537571698305704387](https://github.com/user-attachments/assets/ef0e4d28-a532-455f-9552-8b09c31201c8)
+
+
+
+
 ### Disadvantages -
 - Inflexible: Hard to make changes once a phase is completed.
 - Late Testing: Testing is done after development, delaying defect discovery.
