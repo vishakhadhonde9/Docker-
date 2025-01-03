@@ -139,7 +139,17 @@
 - Scalability: Easily scales to meet growing demands.
 
 
+# Monolithic vs Microservices -
+## Monolithic Architecture -
+- Monolithic architecture is a design where an entire application is built as a single unit.
+- All the features (e.g., user interface, database, business logic) are tightly connected and work together as one program.
+- Example: A single app that handles user login, product listings, payments, and order tracking all in one place.
 
+## Microservices - 
+- Microservices is a design where an application is divided into smaller, independent services.
+-  Each service handles one specific feature or function (e.g., login, payments).
+-  These services communicate with each other through APIs.
+-  Example: A shopping app where one service manages user accounts, another handles payments, and another tracks orders, all working together but independently.
 
 
 
