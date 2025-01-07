@@ -1,5 +1,5 @@
 # Container -
-- Container is nothing but, it is a virtual machine which does not have any 05.
+- Container is nothing but, it is a virtual machine which does not have any 0S
 - A container is like a lightweight, standalone package that contains everything needed to run a piece of software.
 - It includes the application code, runtime, system libraries, and dependencies.
 - Docker is used to create these containers.
