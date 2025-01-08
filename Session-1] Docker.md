@@ -31,3 +31,7 @@
      - Base Layer: The foundational layer, often an operating system (e.g., ubuntu or alpine).
      - Additional Layers: Added layers that include dependencies, application code, and configurations.
      - Metadata: Describes the image and its properties, such as environment variables, entry points, and exposed ports
+
+# Docker Hub -
+- Docker Hub is a popular cloud-based registry service provided by Docker, used to store, share, and distribute Docker images.
+- It acts as a central repository where developers and teams can upload, manage, and download Docker images
