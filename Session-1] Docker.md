@@ -12,6 +12,9 @@
 - Docker is a set of platform-as-a-service that use 0.S. level Virtualization, where as VM ware uses Hardware level Virtualization.
 - Container have O.S files but its negligible in size compared to original files of that O.S.
 
+![image](https://github.com/user-attachments/assets/dc867f3e-aa86-4b2b-8b95-2971d7cc033e)
+
+
 # Container -
 - Container is nothing but, it is a virtual machine which does not have any 0S
 - A container is like a lightweight, standalone package that contains everything needed to run a piece of software.
@@ -35,6 +38,9 @@
 # Docker Hub -
 - Docker Hub is a popular cloud-based registry service provided by Docker, used to store, share, and distribute Docker images.
 - It acts as a central repository where developers and teams can upload, manage, and download Docker images.
+
+
+![image](https://github.com/user-attachments/assets/b57ea093-79a7-42bb-baf0-36287aa8557b)
 
 
 # Docker Configuration -
