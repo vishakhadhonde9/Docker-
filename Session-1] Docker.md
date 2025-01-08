@@ -1,4 +1,5 @@
 
+
 # DOCKER -
 - It is an open source centralized platform designed to create, deploy and run applications.
 - Docker is written in the Go language.
@@ -23,3 +24,10 @@
 - Images can not be updated.
 - If you want to make change in image you have to create new image.
 - Images can not run directly.
+- A Docker image is a lightweight, standalone, and executable package that includes everything needed to run a piece of software.
+
+## Structure of a Docker Image -
+- Docker image consists of:
+     - Base Layer: The foundational layer, often an operating system (e.g., ubuntu or alpine).
+     - Additional Layers: Added layers that include dependencies, application code, and configurations.
+     - Metadata: Describes the image and its properties, such as environment variables, entry points, and exposed ports
