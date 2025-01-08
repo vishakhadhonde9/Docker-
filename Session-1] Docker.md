@@ -57,7 +57,7 @@
 - yum install docker -y
 - service docker start
 - service docker status
-- systemctl enable docker.service- 
+- systemctl enable docker.service
 
 
 
