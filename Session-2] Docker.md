@@ -32,3 +32,19 @@
 ## List all containers (including stopped ones)- 
 
         docker ps -a
+        
+## Start a stopped container- 
+
+       docker start <container_id>
+
+## Stop a running container-
+
+      docker stop <container_id>
+
+## Remove a container-
+
+     docker rm <container_id>
+
+## Remove an image-
+
+    docker rmi <image_id>
