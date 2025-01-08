@@ -1,8 +1,3 @@
-# Container -
-- Container is nothing but, it is a virtual machine which does not have any 0S
-- A container is like a lightweight, standalone package that contains everything needed to run a piece of software.
-- It includes the application code, runtime, system libraries, and dependencies.
-- Docker is used to create these containers.
 
 # DOCKER -
 - It is an open source centralized platform designed to create, deploy and run applications.
@@ -15,3 +10,16 @@
 - It was initially released in March 2013, and developed by Solomon Hykes and Sebastian Pahl.
 - Docker is a set of platform-as-a-service that use 0.S. level Virtualization, where as VM ware uses Hardware level Virtualization.
 - Container have O.S files but its negligible in size compared to original files of that O.S.
+
+# Container -
+- Container is nothing but, it is a virtual machine which does not have any 0S
+- A container is like a lightweight, standalone package that contains everything needed to run a piece of software.
+- It includes the application code, runtime, system libraries, and dependencies.
+- Docker is used to create these containers.
+
+
+# Docker Image - 
+- It is a kind of ready-to-use software read-only template Images is made with source codes, iibraries, external dependencies, and tools.
+- Images can not be updated.
+- If you want to make change in image you have to create new image.
+- Images can not run directly.
