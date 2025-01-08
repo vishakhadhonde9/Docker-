@@ -34,4 +34,28 @@
 
 # Docker Hub -
 - Docker Hub is a popular cloud-based registry service provided by Docker, used to store, share, and distribute Docker images.
-- It acts as a central repository where developers and teams can upload, manage, and download Docker images
+- It acts as a central repository where developers and teams can upload, manage, and download Docker images.
+
+
+# Docker Configuration -
+
+## Ubantu -
+- apt-get update
+- apt-get install docker.io
+- service docker start
+- service docker status
+- systemctl enable docker.service
+
+## Amazon Linux -
+- yum update
+- yum install docker -y
+- service docker start
+- service docker status
+- systemctl enable docker.service- 
+
+
+
+
+
+
+
