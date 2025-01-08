@@ -24,4 +24,11 @@
 ## Run Container in background -
 - docker run -d command is used to run a Docker container in detached mode, meaning the container runs in the background rather than in the foreground.
 
-          docker run -d <image_name>
+         docker run -d <image_name>
+
+## List running containers -
+        docker ps
+
+## List all containers (including stopped ones)- 
+
+        docker ps -a
