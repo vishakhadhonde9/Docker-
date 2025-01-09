@@ -71,10 +71,37 @@
 
       docker stop <container_id>
 
+## Stop all container-
+
+     docker stop $(docker ps -aq)
+    
+## Stop Multiple container-
+ 
+      docker stop container1 container2 container3
+      
 ## Remove a container-
 
      docker rm <container_id>
 
-## Remove an image-
+## Remove all Container-
+
+       docker rm $(docker ps -aq)
+
+
+## Remove Multiple Container-
+
+      docker rm container1 container2 container3
+
+## Remove an Image-
 
     docker rmi <image_id>
+
+## Remove Mutiple Images -
+
+    docker rmi image1 image2 image3
+
+## Remove all Images-
+
+       docker rmi $(docker images -q)
+
+   
