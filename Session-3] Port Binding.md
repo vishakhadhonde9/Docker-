@@ -9,3 +9,8 @@
          docker run -p <host_port>:<container_port> Image_Name/id
   
        
+
+
+
+
+## Docker inspect command -
