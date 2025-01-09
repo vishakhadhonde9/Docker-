@@ -28,16 +28,41 @@
 
 ## Run Container with custom name -
 - --name option in the docker run command allows you to assign a custom name to the container.
-       docker run --name <container_name> -d <img_name>
-     
+
+        docker run --name <container_name> -d <img_name>
+  
+## Run Container Interactively -
+- -it option in the docker run command is used to run a container interactively, allowing you to interact with it through a terminal
+
+       docker run -it <img_name>
+
+- -i (--interactive): Keeps the container’s standard input (stdin) open, even if not attached
+- -t (--tty): Allocates a pseudo-TTY
 
 ## List running containers -
         docker ps
 
 ## List all containers (including stopped ones)- 
 
-        docker ps -a
-        
+       docker ps -a
+       
+## Work within Container-
+- docker exec command is used to execute a command inside a running container.
+- It allows you to interact with a container's processes or environment.
+
+        docker exec [OPTIONS] <Container_name> COMMAND
+
+        e.g.- docker exec my-container ls
+
+- -i, --interactive: Keep the standard input (stdin) open.
+- -t, --tty: Allocate a pseudo-TTY, enabling an interactive terminal.
+
+          docker exec -it <container_name> shell_type
+          e.g.- docker exec -it my-container /bin/bash
+    
+- --detach or -d: Run the command in the background.
+           
+
 ## Start a stopped container- 
 
        docker start <container_id>
