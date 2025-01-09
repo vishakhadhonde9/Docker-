@@ -26,3 +26,8 @@
 ### docker export -
 - This command is used to export a container's filesystem as a tar archive.
 - This command is different from docker save, which saves a Docker image. docker export captures the container's file system (the state of the container’s filesystem at the time of the export), but it does not include the Docker image history, metadata, or volumes associated with the container.
+
+
+      docker export <container_id_or_name> -o <output_file>.tar
+                                   OR
+      docker export <container_id_or_name> > newfile.tar
