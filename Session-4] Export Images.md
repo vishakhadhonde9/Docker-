@@ -3,8 +3,15 @@
 - It captures the current state of the container, including all the changes made to it, and saves it as an image that you can reuse later.
 
           docker commit <container-id/name> NEW_IMAGE_NAME
-  
 
+- -a, --author: Add author metadata to the image.
+
+          docker commit -a "Your Name" my-container my-new-image 
+
+- -m, --message: Add a commit message to describe the changes.
+
+         docker commit -m "Installed Apache and updated configuration" my-container my-new-image
+  
 
 ## Method-1] Store Image into tar file -
 - 
