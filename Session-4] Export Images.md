@@ -17,3 +17,4 @@
          docker save -o <output-file>.tar <image-id>
                              OR
          docker save img-id > newfile.tar
+- This will create a .tar file containing your Docker image.
