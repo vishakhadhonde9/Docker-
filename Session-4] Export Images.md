@@ -14,6 +14,10 @@
   
 
 ## Method-1] Store Image into tar file -
+- docker save command is used to save a Docker image to a tar archive.
+- This is useful for transferring images between systems or storing them for backup purposes.
+
+ 
          docker save -o <output-file>.tar <image-id>
                              OR
          docker save img-id > newfile.tar
