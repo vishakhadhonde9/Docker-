@@ -6,6 +6,6 @@
 - A Docker container runs in its own isolated network namespace.
 - When you bind a container port to a host port, the host system forwards traffic from the host port to the container's port.
 
-         docker run -p <host_port>:<container_port> [OPTIONS] IMAGE [COMMAND]
+         docker run -p <host_port>:<container_port> Image_Name/id
   
        
