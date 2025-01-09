@@ -14,4 +14,6 @@
   
 
 ## Method-1] Store Image into tar file -
-- 
+         docker save -o <output-file>.tar <image-id>
+                             OR
+         docker save img-id > newfile.tar
