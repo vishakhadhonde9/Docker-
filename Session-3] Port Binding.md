@@ -38,8 +38,6 @@
       sudo ufw status
       sudo ufw allow from IP to any port 80
 
-
-  
 - this allow port 80
 
 
