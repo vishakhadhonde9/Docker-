@@ -8,9 +8,15 @@
 
          docker run -p <host_port>:<container_port> Image_Name/id
   
-       
+
+- Every container have its own unique ports.
+- For example, container1 have its own port 80 and container2 also having its own port 80.
 
 
+       docker run -d -p 80:80 nginx
+
+  - 
+  
 
 
 ## Docker inspect command -
