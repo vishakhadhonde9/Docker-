@@ -22,3 +22,7 @@
                              OR
          docker save img-id > newfile.tar
 - This will create a .tar file containing your Docker image.
+
+### docker export -
+- This command is used to export a container's filesystem as a tar archive.
+- This command is different from docker save, which saves a Docker image. docker export captures the container's file system (the state of the container’s filesystem at the time of the export), but it does not include the Docker image history, metadata, or volumes associated with the container.
