@@ -32,7 +32,14 @@
 
 ## ufw command -
 - with UFW (Uncomplicated Firewall), a simple tool for managing firewall rules.
-         sudo ufw allow 80
+
+      sudo ufw enable
+      sudo ufw allow 80
+      sudo ufw status
+      sudo ufw allow from IP to any port 80
+
+
+  
 - this allow port 80
 
 
