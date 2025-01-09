@@ -26,6 +26,11 @@
 
          docker run -d <image_name>
 
+## Run Container with custom name -
+- --name option in the docker run command allows you to assign a custom name to the container.
+       docker run --name <container_name> -d <img_name>
+     
+
 ## List running containers -
         docker ps
 
