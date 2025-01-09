@@ -6,7 +6,7 @@
 - A Docker container runs in its own isolated network namespace.
 - When you bind a container port to a host port, the host system forwards traffic from the host port to the container's port.
 
-         docker run -p <host_port>:<container_port> Image_Name/id
+      docker run -p <host_port>:<container_port> Image_Name/id
   
 
 - Every container have its own unique ports.
@@ -15,8 +15,24 @@
 
        docker run -d -p 80:80 nginx
 
-  - 
+  - Access the Service -
+
+       curl http://localhost:80
   
+### Expose Multiple port -
+       
+        docker run -d -p 80:80 -p 8443:443 nginx
 
 
 ## Docker inspect command -
+- docker inspect command retrieves detailed information about a Docker container in JSON format.
+- This information includes configuration details, networking, storage, environment variables, and more.
+
+       docker inspect CONTAINER_ID
+
+## ufw command -
+- with UFW (Uncomplicated Firewall), a simple tool for managing firewall rules.
+         sudo ufw allow 80
+- this allow port 80
+
+
