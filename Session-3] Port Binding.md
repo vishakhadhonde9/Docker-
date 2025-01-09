@@ -17,7 +17,7 @@
 
   - Access the Service -
 
-       curl http://localhost:80
+         curl http://localhost:80
   
 ### Expose Multiple port -
        
