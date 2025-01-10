@@ -1,4 +1,4 @@
-# How to create Docker Image from Container-
+ji# How to create Docker Image from Container-
 - docker commit command is used to create a new Docker image from an existing container.
 - It captures the current state of the container, including all the changes made to it, and saves it as an image that you can reuse later.
 
@@ -72,3 +72,12 @@
 
            aws ecr get-login-password --region <region> | docker login --username AWS --password-stdin <account-id>.dkr.ecr.<region>.amazonaws.com
 
+- 4) Tag the Docker Image -
+
+           docker tag <image-id> <repository-uri>:<tag>
+        
+
+- 5) Push the Image to ECR -
+
+         docker push <repository-uri>:<tag>
+     
