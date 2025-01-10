@@ -59,3 +59,5 @@
 
                docker push <repository>:<tag>
              
+
+## Method-3] Push image on ECR -
