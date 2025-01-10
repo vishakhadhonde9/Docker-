@@ -31,3 +31,8 @@
       docker export <container_id_or_name> -o <output_file>.tar
                                    OR
       docker export <container_id_or_name> > newfile.tar
+
+### Copy image on your local machine -
+
+    scp -i <your_key.pem> ubuntu@<ec2_public_ip>:<path_to_image_tar> <local_destination_path>
+    
