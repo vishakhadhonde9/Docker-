@@ -36,3 +36,6 @@
 
     scp -i <your_key.pem> ubuntu@<ec2_public_ip>:<path_to_image_tar> <local_destination_path>
     
+
+## Method-2] Push image on Docker Hub -
+-
