@@ -38,4 +38,11 @@
     
 
 ## Method-2] Push image on Docker Hub -
--
+- 1) Login to Docker Hub- 
+      - Use the docker login command to authenticate.
+     
+              docker login
+
+      - Enter your Docker Hub username and password(token) when prompted.
+    
+- 2) 
