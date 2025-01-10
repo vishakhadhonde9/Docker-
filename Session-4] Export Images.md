@@ -54,3 +54,8 @@
 
              
 - 3) Push image on Docker Hub -
+        - docker push command is used to upload Docker images from your local machine to a container registry, such as Docker Hub, AWS ECR.
+
+
+               docker push <repository>:<tag>
+             
