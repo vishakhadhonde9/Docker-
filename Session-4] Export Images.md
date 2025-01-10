@@ -1,4 +1,4 @@
-ji# How to create Docker Image from Container-
+# How to create Docker Image from Container-
 - docker commit command is used to create a new Docker image from an existing container.
 - It captures the current state of the container, including all the changes made to it, and saves it as an image that you can reuse later.
 
