@@ -45,4 +45,12 @@
 
       - Enter your Docker Hub username and password(token) when prompted.
     
-- 2) 
+- 2) Tag the docker image -
+        - Tagging a Docker image is the process of assigning a unique identifier like name to the image so you can manage and version.
+        
+               docker tag <source-image> <username>/<repository>:<tag>
+               e.g.- docker tag img1 myusername/myapp:v1.0
+          
+
+             
+- 3) Push image on Docker Hub -
