@@ -31,7 +31,9 @@
 
         docker run --name <container_name> -d <img_name>
 
-## 
+## Run MySql Container-
+
+        docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD="Your_Password" --name <cont_name> <img_name/id>
 
   
 ## Run Container Interactively -
