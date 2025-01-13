@@ -13,7 +13,7 @@
 
               docker run -v /path/on/host:/path/in/container <image_name>
 
-
+- You can create own directory and add here /path/on/host 
   ## Named Volume -
   - Named volumes allow you to persist data outside the lifecycle of containers and are typically used when you want Docker to handle the volume's storage location and management.
   - These volumes are useful for storing and sharing data between containers, and they can be named explicitly, which provides a convenient way to refer to them.
