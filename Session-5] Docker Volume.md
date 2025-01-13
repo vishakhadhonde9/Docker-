@@ -29,3 +29,6 @@
      - To use a named volume when starting a container, you use the -v or --mount flag.
     
               docker run -v <volume_name>:<path_in_container> <image_name>
+
+- Volumes are stored in:
+             /var/lib/docker/volumes
