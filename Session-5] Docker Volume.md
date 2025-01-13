@@ -34,3 +34,10 @@
 
 
            /var/lib/docker/volumes
+
+
+
+## Default Working Directory -
+- **Nginx-** /usr/share/nginx/html
+- **Apache-** /var/www/html
+- **Mysql-** /var/lib/mysql
