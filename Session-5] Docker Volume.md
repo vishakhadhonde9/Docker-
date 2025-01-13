@@ -31,4 +31,6 @@
               docker run -v <volume_name>:<path_in_container> <image_name>
 
 - Volumes are stored in:
-             /var/lib/docker/volumes
+
+
+           /var/lib/docker/volumes
