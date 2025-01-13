@@ -21,6 +21,10 @@
 
           docker volume create <volume_name>
 
+     - Check Volume is created :
+
+            docker volume ls
+
 - 2. Use a Named Volume with a Container
      - To use a named volume when starting a container, you use the -v or --mount flag.
     
