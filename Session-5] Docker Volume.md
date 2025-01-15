@@ -41,3 +41,22 @@
 - **Nginx-** /usr/share/nginx/html
 - **Apache-** /var/www/html
 - **Mysql-** /var/lib/mysql
+
+
+# Remove a specific volume-
+      docker volume rm volume_name
+
+# Remove all unused volumes-
+      docker volume prune
+
+# Remove all volumes (including used ones)-
+      docker volume rm $(docker volume ls -q)
+
+
+
+
+
+
+
+
+
