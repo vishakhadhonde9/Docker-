@@ -31,17 +31,36 @@ Sets the directory inside the container where commands will execute.
 #### 4. Copy Files (COPY or ADD) -
 Copies files from the host machine to the container.
 
-#### 5. Install Dependencies (RUN)
+#### 5. Install Dependencies (RUN) -
 Runs commands during the image build process, such as installing software or dependencies.
 
-#### 6. Environment Variables (ENV)
+#### 6. Environment Variables (ENV) -
 Sets environment variables inside the container
 
-#### 7. Expose Ports (EXPOSE)
+#### 7. Expose Ports (EXPOSE) -
 Declares the network ports the container listens on.
 
-#### 8. Command to Run (CMD)
+#### 8. Command to Run (CMD) -
 Specifies the command to execute when the container starts.
 
-#### 9. Volumes (VOLUME)
+#### 9. Volumes (VOLUME) -
 (Optional) Creates a mount point for persistent storage.
+
+
+
+# How to Use Dockerfile -
+## Docker Build Command -
+- docker build command is used to create a Docker image from a Dockerfile.
+- It reads the instructions in the Dockerfile and packages the necessary files and dependencies into an image that can be run as a container.
+
+        docker build -t image_name 
+
+
+
+
+
+
+
+
+
+
