@@ -4,29 +4,29 @@
 - These instructions specify how the image should be created, including the base operating system, application dependencies, configuration, and the command to run the application.
 
 ## What's in a Dockerfile? -
-# Use the official Ubuntu base image
-FROM ubuntu:22.04
-
-# Set the working directory inside the container
-WORKDIR /app
-
-# Copy a shell script into the container
-COPY hello.sh .
-
-# Grant execution permissions for the shell script
-RUN chmod +x hello.sh
-
-# Command to execute the shell script
-CMD ["./hello.sh"]
+    # Use the official Ubuntu base image
+    FROM ubuntu:22.04
+    
+    # Set the working directory inside the container
+    WORKDIR /app
+    
+    # Copy a shell script into the container
+    COPY hello.sh .
+    
+    # Grant execution permissions for the shell script
+    RUN chmod +x hello.sh
+    
+    # Command to execute the shell script
+    CMD ["./hello.sh"]
 
 #### 1. Base Image (FROM) -
-- Specifies the starting point for the image. This could be a lightweight operating system or a preconfigured environment
+Specifies the starting point for the image. This could be a lightweight operating system or a preconfigured environment
 
 #### 2. Maintainer/Labels (LABEL) -
-- (Optional) Adds metadata about the image, such as author information.
+(Optional) Adds metadata about the image, such as author information.
 
 #### 3. Working Directory (WORKDIR) -
-- Sets the directory inside the container where commands will execute.
+Sets the directory inside the container where commands will execute.
 
 #### 4. Copy Files (COPY or ADD) -
 Copies files from the host machine to the container.
