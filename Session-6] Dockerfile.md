@@ -56,6 +56,7 @@ Specifies the command to execute when the container starts.
 ## Docker Build Command -
 - docker build command is used to create a Docker image from a Dockerfile.
 - It reads the instructions in the Dockerfile and packages the necessary files and dependencies into an image that can be run as a container.
+
         docker build .
 
         docker build -f filename 
