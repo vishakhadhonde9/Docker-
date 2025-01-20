@@ -4,20 +4,24 @@
 - These instructions specify how the image should be created, including the base operating system, application dependencies, configuration, and the command to run the application.
 
 ## What's in a Dockerfile? -
-    # Use the official Ubuntu base image
+    
     FROM ubuntu:22.04
     
-    # Set the working directory inside the container
-    WORKDIR /app
+    # Update package lists and install Nginx
+    RUN apt update && apt install nginx -y
     
-    # Copy a shell script into the container
-    COPY hello.sh .
+    # Expose port 80
+    EXPOSE 80
     
-    # Grant execution permissions for the shell script
-    RUN chmod +x hello.sh
+    # Set working directory
+    WORKDIR /usr/share/nginx/html
     
-    # Command to execute the shell script
-    CMD ["./hello.sh"]
+    # Create index.html and write content to it
+    RUN echo "Welcome To AWS" > index.html
+    
+    # Start Nginx in the foreground
+    CMD ["nginx", "-g", "daemon off;"]
+
 
 #### 1. Base Image (FROM) -
 Specifies the starting point for the image. This could be a lightweight operating system or a preconfigured environment
@@ -52,7 +56,10 @@ Specifies the command to execute when the container starts.
 ## Docker Build Command -
 - docker build command is used to create a Docker image from a Dockerfile.
 - It reads the instructions in the Dockerfile and packages the necessary files and dependencies into an image that can be run as a container.
+        docker build .
 
+        docker build -f filename 
+       
         docker build -t image_name 
 
 
