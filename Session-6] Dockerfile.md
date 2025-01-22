@@ -66,8 +66,45 @@ Specifies the command to execute when the container starts.
 
 
 
+# Examples -
+**Create Container with table. Table contain values.**
+
+- Create script file that contain database-
 
 
+        #!/bin/bash
+        
+        mysql -u root -p$MYSQL_ROOT_PASSWORD <<EOF
+        CREATE DATABASE IF NOT EXISTS mysqldatabase1;
+        USE mysqldatabase1;
+        CREATE TABLE user (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            name VARCHAR(100),
+            city VARCHAR(100)
+        );
+        INSERT INTO user (id, name, city) VALUES
+        (1, 'Alice', 'New York'),
+        (2, 'Bob', 'Los Angeles'),
+        (3, 'Charlie', 'Chicago');
+        EOF
+
+- Dockerfile -
+
+
+        FROM mysql:8.0
+        
+        # Set environment variables for MySQL
+        ENV MYSQL_ROOT_PASSWORD=Pass@123
+        ENV MYSQL_DATABASE=mysqldatabase1
+        
+        # Copy the initialization shell script into the container
+        COPY mysql.sh /docker-entrypoint-initdb.d/
+        
+        # Make sure the script is executable
+        RUN chmod +x /docker-entrypoint-initdb.d/mysql.sh
+        
+        # Expose MySQL port
+        EXPOSE 3306
 
 
 
