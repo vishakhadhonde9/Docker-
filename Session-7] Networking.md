@@ -17,4 +17,27 @@
 - Docker manages routing between containers on different hosts using the overlay network.
 
 
-  
+# Common Docker Network Commands -
+## 1. List Networks -
+
+        docker network ls
+
+## 2. Create a Network -
+To create a new network with a specific driver (e.g., bridge, overlay, etc.):
+
+      docker network create <network-name>
+
+## 3. Inspect a Network -
+To view detailed information about a network (including its settings, containers connected, etc.):
+
+     docker network inspect <network-name>
+     
+## 4. Create a Network with Custom Settings -
+
+
+      docker network create \
+        --driver bridge \
+        --subnet 192.168.1.0/24 \
+        --gateway 192.168.1.1 \
+        my-custom-network
+
