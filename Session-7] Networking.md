@@ -41,6 +41,16 @@ To view detailed information about a network (including its settings, containers
         --gateway 192.168.1.1 \
         my-custom-network
 
+## 5. Connect with Additional Network -
+ - docker network connect command is used to attach a running container to an additional Docker network.
+ - This is useful when you want to connect a container to more than one network.
+
+         docker network connect NETWORK CONTAINER
+
+         docker network disconnect NETWORK CONTAINER
+
+
+
 ## Run Container Within Specific Network-
 
 
