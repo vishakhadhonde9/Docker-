@@ -41,3 +41,8 @@ To view detailed information about a network (including its settings, containers
         --gateway 192.168.1.1 \
         my-custom-network
 
+## Run Container Within Specific Network-
+
+
+        docker run -d --name container1 --network network_name image_name
+
