@@ -56,3 +56,18 @@ To view detailed information about a network (including its settings, containers
 
         docker run -d --name container1 --network network_name image_name
 
+
+
+# Proxy Server-
+- proxy server is an intermediary server that sits between a client and a destination server. It processes requests and responses.
+
+## Uses of Proxy Servers:
+- Privacy and Anonymity: Hiding your IP address and browsing activity.
+- Access Control: Filtering or restricting access to certain websites.
+- Caching: Reducing bandwidth by storing copies of frequently accessed resources.
+- Security: Protecting internal systems by acting as a barrier against attacks.
+
+## Types of Proxy Servers:
+- **Forward Proxy:** Used by clients to access external resources. It hides the client's IP address from the target server.
+- **Reverse Proxy:** Used by servers to manage incoming client requests. It can distribute traffic, provide load balancing, or improve security.
+- **Transparent Proxy:** Does not hide the user's IP address; often used for caching or filtering.
