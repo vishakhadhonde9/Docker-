@@ -73,3 +73,18 @@ To view detailed information about a network (including its settings, containers
 - **Forward Proxy:** Used by clients to access external resources. It hides the client's IP address from the target server.
 - **Reverse Proxy:** Used by servers to manage incoming client requests. It can distribute traffic, provide load balancing, or improve security.
 - **Transparent Proxy:** Does not hide the user's IP address; often used for caching or filtering.
+
+# Nginx Proxy Server -
+- Add following configuration in nginx.conf:
+
+
+http {
+    # Include mime types
+    include /etc/nginx/mime.types;
+    default_type application/octet-stream;
+
+    # Define the upstream group of servers
+    upstream webserver {
+        server c1:80; # Backend server 1
+        server c2:80; # Backend server 2
+    }
