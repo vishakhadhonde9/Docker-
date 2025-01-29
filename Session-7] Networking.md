@@ -78,25 +78,25 @@ To view detailed information about a network (including its settings, containers
 - Add following configuration in nginx.conf:
 
 
-http {
-    # Include mime types
-    include /etc/nginx/mime.types;
-    default_type application/octet-stream;
-
-    # Define the upstream group of servers
-    upstream webserver {
-        server c1:80; # Backend server 1
-        server c2:80; # Backend server 2
-    }
+                http {
+                    # Include mime types
+                    include /etc/nginx/mime.types;
+                    default_type application/octet-stream;
+                
+                    # Define the upstream group of servers
+                    upstream webserver {
+                        server c1:80; # Backend server 1
+                        server c2:80; # Backend server 2
+                    }
 
 
 - Add following configuration in default.conf:
 
 
-location / {
-    proxy_pass http://webserver;
-    proxy_set_header Host $host;
-    proxy_set_header X-Real-IP $remote_addr;
-    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-}
-
+                location / {
+                    proxy_pass http://webserver;
+                    proxy_set_header Host $host;
+                    proxy_set_header X-Real-IP $remote_addr;
+                    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                }
+                
