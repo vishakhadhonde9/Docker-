@@ -84,11 +84,9 @@
 
 
 ## 7. docker-compose exec -
-Description: Executes a command in a running container. It's useful for interacting with the container's shell or running commands inside the container.
-Usage:
-bash
-Copy
-docker-compose exec <service_name> <command>
+- Executes a command in a running container. It's useful for interacting with the container's shell or running commands inside the container.
+
+         docker-compose exec <service_name> <command>
 
 
 
