@@ -30,11 +30,6 @@
       volume_name: {}  # Define a volume (could be empty or with settings)
     
 
-
-
-
-
-
 # Example-
     
     services:
@@ -48,3 +43,50 @@
           MYSQL_ROOT_PASSWORD:Pass@1234
         port:
            - "3306"
+
+
+
+
+# Commands of Docker Compose -
+
+## 1. docker-compose up -
+- To bilds, creates, starts, and attaches to containers for a service defined in the docker-compose.yml file.
+
+      docker-compose up
+      docker-compose up -d
+
+## 2. docker-compose down -
+- Stops and removes the containers, networks, and volumes created by docker-compose up.
+
+      docker-compose down
+      docker-compose down -v     # to remove volume
+
+## 3. docker-compose start -
+- Starts existing containers defined in the docker-compose.yml file.
+
+       docker-compose start
+
+## 4. docker-compose stop -
+- Stops running containers without removing them.
+
+       docker-compose stop
+
+## 5. docker-compose logs -
+- Displays the logs of the services defined in docker-compose.yml. -
+
+      docker-compose logs
+
+## 6. docker-compose ps -
+- Lists the containers that are part of the services defined in the docker-compose.yml file.
+
+      docker-compose ps
+
+
+
+
+
+
+
+
+
+
