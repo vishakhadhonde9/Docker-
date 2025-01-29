@@ -28,7 +28,7 @@
     
     volumes:  # Define named volumes (for persistent data storage)
       volume_name: {}  # Define a volume (could be empty or with settings)
-    
+      dir_name:path/to/yourdir
 
 # Example-
     
@@ -54,12 +54,14 @@
 
       docker-compose up
       docker-compose up -d
+      docker-compose up -f filename.yml
 
 ## 2. docker-compose down -
-- Stops and removes the containers, networks, and volumes created by docker-compose up.
+- Stops and removes the containers created by docker-compose up.
 
       docker-compose down
       docker-compose down -v     # to remove volume
+    
 
 ## 3. docker-compose start -
 - Starts existing containers defined in the docker-compose.yml file.
