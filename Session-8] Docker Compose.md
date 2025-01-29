@@ -49,7 +49,7 @@
 # Commands of Docker Compose -
 
 ## 1. docker-compose up -
-- To bilds, creates, starts, and attaches to containers for a service defined in the docker-compose.yml file.
+- To builds, creates, starts, and attaches to containers for a service defined in the docker-compose.yml file.
 
       docker-compose up
       docker-compose up -d
