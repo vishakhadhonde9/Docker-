@@ -64,8 +64,8 @@
 - 1) You have to install awa cli on your system.
 
 
-        sudo apt update
-        sudo apt install awscli -y
+                  sudo apt update
+                  sudo apt install awscli -y
 
 - 2) Create repository on ECR.
 - 3) Authenticate Docker with ECR-
