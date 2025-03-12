@@ -49,7 +49,7 @@
         - Tagging a Docker image is the process of assigning a unique identifier like name to the image so you can manage and version.
         
                docker tag <source-image> <username>/<repository>:<tag>
-               e.g.- docker tag img1 myusername/myapp:v1.0
+               e.g.- docker tag cont3img:newimg fortunecloud815/repo1:newimg
           
 
              
