@@ -54,6 +54,7 @@
       docker-compose up
       docker-compose up -d
       docker-compose up -f filename.yml
+      docker-compose up --scale <service_name>=3
 
 ## 2. docker-compose down -
 - Stops and removes the containers created by docker-compose up.
@@ -87,6 +88,11 @@
 - Executes a command in a running container. It's useful for interacting with the container's shell or running commands inside the container.
 
          docker-compose exec <service_name> <command>
+
+## 8. docker-compose build -
+- Creates docker image that are part of services defined in docker-compose.yml file.
+
+          docker-compose build
 
 
 
